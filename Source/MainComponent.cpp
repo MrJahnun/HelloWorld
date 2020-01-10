@@ -24,9 +24,9 @@ void MainComponent::paint (Graphics& g)
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     g.fillAll (getLookAndFeel().findColour (ResizableWindow::backgroundColourId));
 
-    g.setFont (Font (16.0f));
-    g.setColour (Colours::red);
-    g.drawText ("Hello World!", getLocalBounds(), Justification::centred, true);
+    g.setFont (Font (42.0f));
+    g.setColour (Colours::yellow);
+    g.drawText ("Hello My World!", getLocalBounds(), Justification::centred, true);
 }
 
 void MainComponent::resized()
